@@ -7,8 +7,8 @@ abstract class Connection
     public function dbConnect(){
 
         $dbHost = 'mysql:host=localhost;dbname=eticket;charset=utf8';
-        $dbUsername = 'melvin';
-        $dbPassword = 'melvin';
+        $dbUsername = 'nickfury';
+        $dbPassword = 'nickfury';
 
 
         if (!isset($GLOBALS['dbConnection'])) {
